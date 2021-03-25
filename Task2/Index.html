@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<head>
+
+<style>
+
+hr {height: 9px; background-color: blue;}
+
+.headline {text-align: center;}
+
+#normal{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+}
+.d1_2 {
+    text-align:center;
+}
+#d1_3{
+    text-align:right;
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#girls{
+    background-color: red;
+    width: 70%;
+    margin-right: 30%;
+    
+}
+#boys{
+    background-color: rgb(55, 0, 255);
+    width: 70%;
+    margin-right: 30%;
+    
+}
+ul li{
+    letter-spacing:5px;
+}
+
+</style>
+
+<title>Document</title>
+</head>
+<body>
+    
+
+<h3 class="headline">Task 1.2</h3>
+<p id='normal'>This is a paragraph in normal style</p>
+<p id='italic'>This is a paragraph in italic style</p>
+<p id='oblique'>This is a paragraph in oblique style</p>
+<hr>
+<h3 class="headline">Task 1.2</h3>
+<p class="d1_2">მოგესალმებით</p>
+<p class="d1_2">ეს არის დავალება <span><b>1.2</b></span></p>
+<hr>
+<h3 class="headline">Task 1.3</h3>
+<p id="d1_3">My first CSS page</p>
+<hr>
+<h3 class="headline">Task 1.4</h3>
+<p style='text-align:center;'><b>ჩემი სტუდენტები</b></p>
+<p style='text-align:right;'><b>გოგონები</b></p>
+
+
+<pre><p>
+    მარი
+    თათია
+    სალომე
+</p></pre>
+<hr id="girls">
+<p style='text-align:right;'><b>ბიჭები</b></p>
+<pre><p>
+    შოთიკო
+    ლაშა
+    გიორგი
+</p></pre>
+<hr id="boys">
+<hr>
+<h3 class="headline">Task 1.5</h3>
+<h2 style='text-decoration: overline;'>HtmllmtH</h2>
+<h3 style="text-decoration: line-through;">HtmllmtH</h3>
+<h4 style="text-decoration: underline;">HtmllmtH</h4>
+<hr>
+<h3 class="headline">Task 1.6</h3>
+<p style="font-size:20px;">სამაგიდო კომპიუტერები თავის მხრივ შემდეგ ჯგუფებად იყოფა:</p>
+<ul>
+    <li>უნივერსალური ტიპის კომპიუტერები</li>
+    <li>სპეციალური დანიშნულების ტიპის კომპიუტერები</li>
+    <li>სამაგიდო კომპიუტერები</li>
+    <li>სერვერები</li>
+
+</ul>
+<hr>
+<h3 class="headline">Task 2.1</h3>
+<div style='border-style: solid;'>
+
+<p><strong>border-style თვისება</strong></p>
+<p>მოცემული თვისება განსაზღვრავს, როგორ აისახება ჩარჩოს გვერდები</p>
+<p style="border-style: dotted; border-color: cyan;">dotted-წერტილოვანი ჩარჩო</p>
+<p style="border-style: dashed; border-color: cyan;">dashed-წყვეტილი ჩარჩო</p>
+<p style="border-style: solid; border-color: cyan;">solid-უწყვეტი ჩარჩო</p>
+<p style="border-style: double; border-color: cyan;">double-ორმაგი ჩარჩო</p>
+<p style="border-style: groove; border-color: cyan;;">groove-ჩაღრმავებული ჩარჩო</p>
+<p style="border-style: ridge; border-color: cyan;">ridge-ამობურცული ჩარჩო</p>
+<p style="border-style: inset; border-color: cyan;;">inset-ჩაღრმავებული ჩარჩო</p>
+<p style="border-style: outset; border-color: cyan;;">outset-ამობურცული ჩარჩო</p>
+<p style="border-style: none; border-color: cyan;;">none-არ არის ჩარჩო</p>
+<p style="border-style: hidden; border-color: cyan;;">hidden-დამალული ჩარჩო</p>
+<p style="border-style:mix ; border-color: cyan;;">mix-შერეული ჩარჩო</p>
+
+</div>
+<hr>
+<h3 class="headline">Task 2.2</h3>
+<div style="border-style: solid;">
+
+<p>border-style თვისება საშუალებას გაძლევთ ელემენტს მომრგვალებული კუთხეები დაამატოთ</p>
+<p>მომრგვალებული კუთხეები ფონის მქონე ელემენტებისთვის:</p>
+<pre style="border-style: solid; background-color: darkred; border-radius: 30px; margin-right: 70%;"><p>
+    მართხკუთხედი
+    მომრგვალებული
+    კუთხეები
+</p></pre>
+
+<p>მომრგვალებული კუთხეები ჩარჩოიანი ელემენტებისთვის:</p>
+<pre style="border-style: solid; border-radius: 30px; margin-right: 70%;"><p>
+    მართხკუთხედი
+    მომრგვალებული
+    კუთხეები
+</p></pre>
+
+<p>მომრგვალებული კუთხეები ფონურგამოსახულებიანი ელემენტებისთვის:</p>
+<pre style="border-style: solid; background-image: url('https://media.istockphoto.com/photos/watercolor-textured-background-picture-id887755698?k=6&m=887755698&s=612x612&w=0&h=_yEUF8gLpWjZv5IgwuWkecNVt4X4P7vpuFBKCWIuR44='); border-radius: 30px; margin-right: 70%;"><p>
+    მართხკუთხედი
+    მომრგვალებული
+    კუთხეები
+</p></pre>
+</div>
+<hr>
+<h3 class="headline">Task 2.3</h3>
+<div style="border-style: solid;">
+
+<pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius: 15px 30px 30px 5px;">
+ <br>  
+ <br>   
+ <br>   
+ <br>   
+</pre>
+
+<pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius: 15px 50px 30px;">
+    <br>  
+    <br>   
+    <br>   
+    <br>   
+   </pre>
+
+   <pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius: 15px 50px;">
+    <br>  
+    <br>   
+    <br>   
+    <br>   
+   </pre>  
+
+</div>
+<hr>
+<h3 class="headline">Task 2.3</h3>
+<div style="border-style: solid;">
+
+    <pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius:50px/15px;">
+        <br>  
+        <br>   
+        <br>   
+        <br>   
+       </pre>
+
+       <pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius: 15px/50px;">
+        <br>  
+        <br>   
+        <br>   
+        <br>   
+       </pre>    
+
+
+       <pre style="border-style: solid; background-color: darkred; margin-right: 70%; border-radius:50%;">
+        <br>  
+        <br>   
+        <br>   
+        <br>   
+       </pre>
+
+</div>
+<hr>
+</body>
+</html>
