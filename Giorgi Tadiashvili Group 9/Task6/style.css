@@ -1,0 +1,170 @@
+body{
+	width: 100%;
+	overflow-x:hidden;
+}
+
+
+.child{
+ width: 100px; 
+ margin:3px;
+ text-align: center;
+ font-size: 50px;
+ line-height: 150px;
+ color: white;
+
+}
+
+.parent{
+	 background-color: none; 
+	 display: flex;
+	 justify-content: center;
+
+	}
+
+.parentbelow{
+	background-color: none; 
+	 display: flex;
+	 justify-content: center;
+	
+}	
+
+.childbelow{
+width: 100px; 
+ margin:3px;
+ text-align: center;
+ font-size: 50px;
+ line-height: 150px;
+ color: white;
+}
+
+.task2 {
+	display:flex;
+	flex-direction: row;
+
+
+
+}
+
+.task2 div{
+	height: 100px;
+	width: 200px;
+	margin-bottom: 0px;
+
+}
+
+.task2main div{
+	border-radius: 10px;
+}
+
+.task2main{
+	height: 400px;
+	margin-left: 25%;
+}
+
+
+.task3{
+	margin-top: 4px;
+	background-color: grey;
+}
+
+.first{
+    display: flex;
+	justify-content: flex-start;
+}
+
+.first div, .second div, .third div, .fourth div, .fifth div{
+	margin-left: 2px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.second{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.third{
+	display: flex;
+	justify-content: center;
+}
+
+
+.fourth{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.fifth{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.task4{
+	display: flex;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+}
+
+.f2, .f3, .f4, .f5, .f6{
+	justify-content: space-between;
+	margin-top:8px;
+}
+.f2 div, .f3 div, .f4 div, .f5 div, .f6 div{
+margin-right:8px;
+}
+
+
+
+.task5main{
+display: flex;
+}
+
+.task5{
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 8px;
+}
+
+.r1 div, .r2 div, .r3 div, .r4 div, .r5 div, .r6 div, .r7 div, .r8 div, .r9 div, .r10 div, .r11 div, .r12 div{
+	width: 50px;
+	background-color: cyan;
+	margin-top: 8px;
+	flex-grow: 1;
+	background-color: #4064e5;
+	color: white;
+	border-radius: 4px;
+}
+
+
+
+.task6{
+	background-color: darkgrey;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ro1 div, .ro2 div, .ro3 div{
+	height: 30px;
+	background-color: #ffffff;
+	border:solid 1px grey;
+	border-radius: 3px;
+	margin-top: 18px;
+	margin-right: 10px;
+	border-radius: 4px;
+	width: 100px;
+}
+
+
+
+
+
+
+
+
