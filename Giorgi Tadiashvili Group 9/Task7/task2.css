@@ -1,0 +1,85 @@
+header{
+    padding:20px;
+    height: 60px;
+    background-color: #2190ff;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 60px;
+    border-radius: 14px;
+    box-shadow:inset 0px -10px 1px 2px #1781f3;
+}
+
+.content{
+    margin-top: 15px;
+    display: flex;
+    
+    
+}
+
+
+
+main{
+    width: 60%;
+    height: 450px;
+    background-color: #3bb371;
+    box-shadow:inset 0px -5px 1px 2px #2f915b;
+    border-radius: 14px;
+
+}
+
+.allcol{
+    
+}
+
+
+.col1, .col2, .col3{
+    display: flex;
+    justify-content: center;
+}
+
+.col1 div, .col2 div, .col3 div{
+    background-color: #2f8d59;
+    height: 100px;
+    margin:20px;
+    flex-basis: 100px;
+    box-shadow:inset 0px -5px 1px 2px #297b4d;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+aside{
+    height: inherit;
+    margin-left: 15px;
+    background-color: #ff6347;
+    flex-basis: 40%;
+    box-shadow:inset 0px -5px 1px 2px #e42816;
+    border-radius: 14px;
+    color: white;
+    padding-left: 20px;
+}
+
+footer{
+    margin-top: 15px;
+    padding:20px;
+    height: 60px;
+    background-color: #2190ff;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 60px;
+    border-radius: 14px;
+    box-shadow:inset 0px -10px 1px 2px #4169e2;  
+}
+
+
+
+
+
+
+
+
